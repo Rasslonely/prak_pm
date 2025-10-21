@@ -72,14 +72,14 @@ class _ProfilePageState extends State<ProfilePage> {
                     ),
 
                     Text(
-                      "Kevin Namalo Sirait",
+                      "Rasslonely",
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 16,
                       ),
                     ),
                     Text(
-                      "kevinnamalo@students.usu.ac.id",
+                      "farrasprasetya@students.usu.ac.id",
                       style: TextStyle(fontSize: 14),
                     ),
 
@@ -105,7 +105,7 @@ class _ProfilePageState extends State<ProfilePage> {
                               ),
 
                               Text("9999"),
-                              Text("E-Point",),
+                              Text("E-Point"),
 
                               SizedBox(width: 30),
 
@@ -180,19 +180,22 @@ class _ProfilePageState extends State<ProfilePage> {
                       ),
                     ),
                     SizedBox(height: 10),
-                    MenuList(title: "Tugas",file: "tugas.png"),
+                    MenuList(title: "Tugas", file: "tugas.png"),
 
                     SizedBox(height: 10),
-                    MenuList(title: "Peringkat",file: "peringkat.png"),
+                    MenuList(title: "Peringkat", file: "peringkat.png"),
 
                     SizedBox(height: 10),
-                    MenuList(title: "Notifikasi",file: "notifikasi.png"),
+                    MenuList(title: "Notifikasi", file: "notifikasi.png"),
 
                     SizedBox(height: 10),
-                    MenuList(title: "Kebijakan Privasi",file: "kebijakan_privasi.png"),
+                    MenuList(
+                      title: "Kebijakan Privasi",
+                      file: "kebijakan_privasi.png",
+                    ),
 
                     SizedBox(height: 10),
-                    MenuList(title: "Medaliku",file: "medali.png"),
+                    MenuList(title: "Medaliku", file: "medali.png"),
                   ],
                 ),
               ),

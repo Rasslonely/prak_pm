@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:prak_pm/screen/login.dart';
 
@@ -8,8 +9,21 @@ class SplashPage extends StatefulWidget {
   State<SplashPage> createState() => _SplashPageState();
 }
 
+
+
 class _SplashPageState extends State<SplashPage> {
   @override
+  void initState() {
+    super.initState();
+    // Navigate after 3 seconds
+    Timer(const Duration(seconds: 3), () {
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(builder: (context) => const LoginPage()),
+      );
+    });
+  }
+
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color.fromRGBO(0, 148, 300, 1),
